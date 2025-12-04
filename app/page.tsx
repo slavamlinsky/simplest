@@ -1,5 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Simplest.App - Train & Test",
+  description:
+    "Your easiest way to become smarter. Usefull and free application for you and your kids.",
+  openGraph: {
+    title: "Simplest.App - Train & Test",
+    description:
+      "Your easiest way to become smarter. Usefull and free application for you and your kids.",
+    images: ["/welcome-screen-large.png"],
+  },
+};
 
 export default function Home() {
   return (
