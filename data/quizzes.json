@@ -1,0 +1,1360 @@
+[
+    {
+      "id": "animals",
+      "name": "Animals Quiz",
+      "category": "English Vocabulary",
+      "useTimer": true,
+      "timePerQuestion": 20,
+      "questions": [
+        {
+          "title": "Which animal is the fastest?",
+          "image": "/images/cheetah.jpg",
+          "answers": [
+            { "text": "Cheetah", "correct": true },
+            { "text": "Lion", "correct": false },
+            { "text": "Horse", "correct": false },
+            { "text": "Ostrich", "correct": false },
+            { "text": "Penguin", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which animal is the highest?",
+          "image": "/images/giraffe.jpeg",
+          "answers": [
+            { "text": "Elephant", "correct": false },
+            { "text": "Giraffe", "correct": true },
+            { "text": "Hippo", "correct": false },
+            { "text": "Rhino", "correct": false },
+            { "text": "Zebra", "correct": false }
+          ],
+          "shuffle": true
+        }
+      ]
+    },   
+    {
+      "id": "body_parts",
+      "name": "Body Parts",
+      "category": "English Vocabulary",
+      "useTimer": true,
+      "timePerQuestion": 20,
+      "questions": [
+        {
+          "title": "Which body part do you use to see?",
+          "image": "/images/eyes.jpg",
+          "answers": [
+            { "text": "Eyes", "correct": true },
+            { "text": "Ears", "correct": false },
+            { "text": "Nose", "correct": false },
+            { "text": "Mouth", "correct": false },
+            { "text": "Hands", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part do you use to hear?",
+          "image": "/images/ears.jpg",
+          "answers": [
+            { "text": "Ears", "correct": true },
+            { "text": "Eyes", "correct": false },
+            { "text": "Feet", "correct": false },
+            { "text": "Knees", "correct": false },
+            { "text": "Neck", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part do you use to smell?",
+          "image": "/images/nose.jpg",
+          "answers": [
+            { "text": "Nose", "correct": true },
+            { "text": "Hair", "correct": false },
+            { "text": "Shoulder", "correct": false },
+            { "text": "Leg", "correct": false },
+            { "text": "Chin", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part do you use to taste food?",
+          "image": "/images/mouth.jpg",
+          "answers": [
+            { "text": "Mouth", "correct": true },
+            { "text": "Elbow", "correct": false },
+            { "text": "Finger", "correct": false },
+            { "text": "Toe", "correct": false },
+            { "text": "Hair", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part helps you think?",
+          "image": "/images/brain.jpg",
+          "answers": [
+            { "text": "Brain", "correct": true },
+            { "text": "Stomach", "correct": false },
+            { "text": "Hand", "correct": false },
+            { "text": "Back", "correct": false },
+            { "text": "Foot", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body parts are at the end of your feet?",
+          "image": "/images/toes.jpg",
+          "answers": [
+            { "text": "Toes", "correct": true },
+            { "text": "Fingers", "correct": false },
+            { "text": "Knees", "correct": false },
+            { "text": "Elbows", "correct": false },
+            { "text": "Ears", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part helps you lift and carry things with your arms?",
+          "image": "/images/shoulders.jpg",
+          "answers": [
+            { "text": "Shoulders", "correct": true },
+            { "text": "Hips", "correct": false },
+            { "text": "Knees", "correct": false },
+            { "text": "Ears", "correct": false },
+            { "text": "Fingers", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part helps you hold things?",
+          "image": "/images/fingers.jpg",
+          "answers": [
+            { "text": "Fingers", "correct": true },
+            { "text": "Toes", "correct": false },
+            { "text": "Elbows", "correct": false },
+            { "text": "Lips", "correct": false },
+            { "text": "Nose", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part pumps your blood?",
+          "image": "/images/heart.jpg",
+          "answers": [
+            { "text": "Heart", "correct": true },
+            { "text": "Lungs", "correct": false },
+            { "text": "Eyes", "correct": false },
+            { "text": "Hair", "correct": false },
+            { "text": "Thumb", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part helps you breathe?",
+          "image": "/images/lungs.jpg",
+          "answers": [
+            { "text": "Lungs", "correct": true },
+            { "text": "Knees", "correct": false },
+            { "text": "Eyes", "correct": false },
+            { "text": "Feet", "correct": false },
+            { "text": "Tongue", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part digests the food you eat?",
+          "image": "/images/stomach.jpg",
+          "answers": [
+            { "text": "Stomach", "correct": true },
+            { "text": "Heart", "correct": false },
+            { "text": "Brain", "correct": false },
+            { "text": "Lungs", "correct": false },
+            { "text": "Legs", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part bends your arm?",
+          "image": "/images/elbow.jpg",
+          "answers": [
+            { "text": "Elbow", "correct": true },
+            { "text": "Shoulder", "correct": false },
+            { "text": "Wrist", "correct": false },
+            { "text": "Finger", "correct": false },
+            { "text": "Toe", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part helps you kick a ball?",
+          "image": "/images/feet.jpg",
+          "answers": [
+            { "text": "Feet", "correct": true },
+            { "text": "Hands", "correct": false },
+            { "text": "Eyes", "correct": false },
+            { "text": "Ears", "correct": false },
+            { "text": "Teeth", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part sits on top of your neck and holds your brain?",
+          "image": "/images/head.jpg",
+          "answers": [
+            { "text": "Head", "correct": true },
+            { "text": "Face", "correct": false },
+            { "text": "Neck", "correct": false },
+            { "text": "Shoulder", "correct": false },
+            { "text": "Chest", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which part of your body has eyes, nose, and mouth?",
+          "image": "/images/face.jpg",
+          "answers": [
+            { "text": "Face", "correct": true },
+            { "text": "Head", "correct": false },
+            { "text": "Chin", "correct": false },
+            { "text": "Hand", "correct": false },
+            { "text": "Neck", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part is below your mouth?",
+          "image": "/images/chin.jpg",
+          "answers": [
+            { "text": "Chin", "correct": true },
+            { "text": "Nose", "correct": false },
+            { "text": "Mouth", "correct": false },
+            { "text": "Ears", "correct": false },
+            { "text": "Neck", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part helps your legs bend when you walk or run?",
+          "image": "/images/knees.jpg",
+          "answers": [
+            { "text": "Knee", "correct": true },
+            { "text": "Elbow", "correct": false },
+            { "text": "Ankle", "correct": false },
+            { "text": "Hip", "correct": false },
+            { "text": "Shoulder", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part helps you jump and run?",
+          "image": "/images/legs.jpg",
+          "answers": [
+            { "text": "Legs", "correct": true },
+            { "text": "Hands", "correct": false },
+            { "text": "Feet", "correct": false },
+            { "text": "Knees", "correct": false },
+            { "text": "Back", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part helps you write or draw?",
+          "image": "/images/hands.jpg",
+          "answers": [
+            { "text": "Hand", "correct": true },
+            { "text": "Foot", "correct": false },
+            { "text": "Ear", "correct": false },
+            { "text": "Knee", "correct": false },
+            { "text": "Neck", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part connects your head to the rest of your body?",
+          "image": "/images/neck.jpg",
+          "answers": [
+            { "text": "Neck", "correct": true },
+            { "text": "Back", "correct": false },
+            { "text": "Chest", "correct": false },
+            { "text": "Shoulder", "correct": false },
+            { "text": "Knee", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body parts do you use to bite and chew food?",
+          "image": "/images/teeth.jpg",
+          "answers": [
+            { "text": "Teeth", "correct": true },
+            { "text": "Eyes", "correct": false },
+            { "text": "Ears", "correct": false },
+            { "text": "Fingers", "correct": false },
+            { "text": "Nose", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part helps you taste food?",
+          "image": "/images/tongue.jpg",
+          "answers": [
+            { "text": "Tongue", "correct": true },
+            { "text": "Teeth", "correct": false },
+            { "text": "Nose", "correct": false },
+            { "text": "Chin", "correct": false },
+            { "text": "Forehead", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part is above your eyes on your face?",
+          "image": "/images/forehead.jpg",
+          "answers": [
+            { "text": "Forehead", "correct": true },
+            { "text": "Chin", "correct": false },
+            { "text": "Neck", "correct": false },
+            { "text": "Nose", "correct": false },
+            { "text": "Ear", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body parts are the small lines of hair above your eyes?",
+          "image": "/images/eyebrows.jpg",
+          "answers": [
+            { "text": "Eyebrows", "correct": true },
+            { "text": "Eyelashes", "correct": false },
+            { "text": "Lips", "correct": false },
+            { "text": "Fingers", "correct": false },
+            { "text": "Toes", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which body part do you use when you smile or make a kiss?",
+          "image": "/images/lips.jpg",
+          "answers": [
+            { "text": "Lips", "correct": true },
+            { "text": "Nose", "correct": false },
+            { "text": "Tongue", "correct": false },
+            { "text": "Teeth", "correct": false },
+            { "text": "Chin", "correct": false }
+          ],
+          "shuffle": true
+        }
+      ]
+    },
+    {
+      "id": "animals_ro",
+      "name": "Romanian Animals Quiz",
+      "category": "Romanian Vocabulary",
+      "useTimer": true,
+      "timePerQuestion": 20,
+      "questions": [
+        {
+          "title": "Which animal is the fastest?",
+          "image": "/images/cheetah.jpg",
+          "answers": [
+            { "text": "Cheetah", "correct": true },
+            { "text": "Lion", "correct": false },
+            { "text": "Horse", "correct": false },
+            { "text": "Ostrich", "correct": false },
+            { "text": "Penguin", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which animal is the highest?",
+          "image": "/images/giraffe.jpeg",
+          "answers": [
+            { "text": "Elephant", "correct": false },
+            { "text": "Giraffe", "correct": true },
+            { "text": "Hippo", "correct": false },
+            { "text": "Rhino", "correct": false },
+            { "text": "Zebra", "correct": false }
+          ],
+          "shuffle": true
+        }
+      ]
+    },
+    {
+      "id": "istqb_en",
+      "name": "ISTQB Questions",
+      "category": "IT Certification",
+      "useTimer": true,
+      "timePerQuestion": 20,
+      "longAnswers": true,
+      "questions": [
+        {
+          "title": "Which of the following best describes the 'pesticide paradox'?",
+          "answers": [
+            { "text": "New bugs appear only in production environments", "correct": false },
+            { "text": "Repeated execution of the same tests reduces their effectiveness", "correct": true },
+            { "text": "Testers should not rely on automation tools", "correct": false },
+            { "text": "Defects multiply as software becomes older", "correct": false },
+            { "text": "Developers remove bugs automatically during coding", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is a VALID objective of testing?",
+          "answers": [
+            { "text": "Preventing all failures in production", "correct": false },
+            { "text": "Building confidence in the quality level of the software", "correct": true },
+            { "text": "Ensuring all code paths are executed", "correct": false },
+            { "text": "Finding as many performance issues as possible", "correct": false },
+            { "text": "Testing only what the developer requests", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "In the V-Model, which test level corresponds to system design?",
+          "answers": [
+            { "text": "Unit Testing", "correct": false },
+            { "text": "System Testing", "correct": true },
+            { "text": "Acceptance Testing", "correct": false },
+            { "text": "Integration Testing", "correct": false },
+            { "text": "Smoke Testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is a characteristic of good testing?",
+          "answers": [
+            { "text": "Testing starts only after all code is completed", "correct": false },
+            { "text": "Testing is risk-based and structured", "correct": true },
+            { "text": "Testers should avoid reporting minor issues", "correct": false },
+            { "text": "Testing should be performed by the development manager", "correct": false },
+            { "text": "Testers must create code fixes", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What does 'early testing' help reduce?",
+          "answers": [
+            { "text": "The total number of tests needed", "correct": false },
+            { "text": "The cost of fixing defects", "correct": true },
+            { "text": "The need for regression testing", "correct": false },
+            { "text": "The requirement for documentation", "correct": false },
+            { "text": "The effort required for maintenance", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which is a static testing technique?",
+          "answers": [
+            { "text": "Boundary Value Analysis", "correct": false },
+            { "text": "Walkthrough", "correct": true },
+            { "text": "State Transition Testing", "correct": false },
+            { "text": "Load Testing", "correct": false },
+            { "text": "System Integration Testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is typically checked during a review?",
+          "answers": [
+            { "text": "Execution results", "correct": false },
+            { "text": "Documentation and code artifacts", "correct": true },
+            { "text": "System load limits", "correct": false },
+            { "text": "Memory leaks", "correct": false },
+            { "text": "CPU usage", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "A failure is:",
+          "answers": [
+            { "text": "The human action that produces a wrong result", "correct": false },
+            { "text": "The actual incorrect behavior when a defect is executed", "correct": true },
+            { "text": "A weakness in the code", "correct": false },
+            { "text": "The cause of an incident", "correct": false },
+            { "text": "A variation in expected results", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is a benefit of static analysis tools?",
+          "answers": [
+            { "text": "They detect runtime errors", "correct": false },
+            { "text": "They detect defects without executing the code", "correct": true },
+            { "text": "They validate user requirements", "correct": false },
+            { "text": "They reduce the need for system testing", "correct": false },
+            { "text": "They replace peer reviews", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which test level typically verifies business processes?",
+          "answers": [
+            { "text": "Unit Testing", "correct": false },
+            { "text": "Integration Testing", "correct": false },
+            { "text": "System Testing", "correct": false },
+            { "text": "Acceptance Testing", "correct": true },
+            { "text": "White-Box Testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is a key characteristic of black-box testing?",
+          "answers": [
+            { "text": "It requires knowledge of internal code structure", "correct": false },
+            { "text": "It focuses on inputs and expected outputs", "correct": true },
+            { "text": "It is performed only by developers", "correct": false },
+            { "text": "It guarantees full path coverage", "correct": false },
+            { "text": "It tests using structural techniques", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which term describes testing without pre-defined test cases?",
+          "answers": [
+            { "text": "Regression Testing", "correct": false },
+            { "text": "Exploratory Testing", "correct": true },
+            { "text": "Acceptance Testing", "correct": false },
+            { "text": "Static Testing", "correct": false },
+            { "text": "Smoke Testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which metric is commonly used to measure test progress?",
+          "answers": [
+            { "text": "Number of developers assigned", "correct": false },
+            { "text": "Percentage of executed test cases", "correct": true },
+            { "text": "Amount of code written", "correct": false },
+            { "text": "Number of new features added", "correct": false },
+            { "text": "Total project budget", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which test technique is MOST suitable for checking combinations of input conditions?",
+          "answers": [
+            { "text": "Equivalence Partitioning", "correct": false },
+            { "text": "Decision Table Testing", "correct": true },
+            { "text": "Error Guessing", "correct": false },
+            { "text": "Boundary Value Analysis", "correct": false },
+            { "text": "Checklist-Based Testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "A defect is discovered during production use. What is this called?",
+          "answers": [
+            { "text": "A requirement gap", "correct": false },
+            { "text": "A failure", "correct": true },
+            { "text": "A code smell", "correct": false },
+            { "text": "A static issue", "correct": false },
+            { "text": "A change request", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which is a limitation of automated testing?",
+          "answers": [
+            { "text": "It requires no initial setup effort", "correct": false },
+            { "text": "It may be more expensive initially", "correct": true },
+            { "text": "It always replaces manual testing", "correct": false },
+            { "text": "It reduces test coverage", "correct": false },
+            { "text": "It cannot run regression tests", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is a test condition?",
+          "answers": [
+            { "text": "The expected result of a test", "correct": false },
+            { "text": "An item or event that could be verified by one or more test cases", "correct": true },
+            { "text": "The documentation used during testing", "correct": false },
+            { "text": "The state of the system after execution", "correct": false },
+            { "text": "The techniques used to design tests", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is part of a test case?",
+          "answers": [
+            { "text": "Test environment architecture", "correct": false },
+            { "text": "Preconditions and input values", "correct": true },
+            { "text": "Defect description", "correct": false },
+            { "text": "Requirement priority", "correct": false },
+            { "text": "Test strategy", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Coverage measurement belongs to which testing approach?",
+          "answers": [
+            { "text": "Black-box", "correct": false },
+            { "text": "White-box", "correct": true },
+            { "text": "User acceptance", "correct": false },
+            { "text": "Exploratory", "correct": false },
+            { "text": "Static review", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which review type is led by the author?",
+          "answers": [
+            { "text": "Inspection", "correct": false },
+            { "text": "Walkthrough", "correct": true },
+            { "text": "Technical Review", "correct": false },
+            { "text": "Management Review", "correct": false },
+            { "text": "Peer Review", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which activity is part of the test monitoring and control process?",
+          "answers": [
+            { "text": "Writing test scripts", "correct": false },
+            { "text": "Comparing actual progress with planned progress", "correct": true },
+            { "text": "Designing test data", "correct": false },
+            { "text": "Configuring test environments", "correct": false },
+            { "text": "Executing test cases", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which is a trigger for maintenance testing?",
+          "answers": [
+            { "text": "A new development project begins", "correct": false },
+            { "text": "Software is modified or migrated", "correct": true },
+            { "text": "The tester changes teams", "correct": false },
+            { "text": "Unit tests are completed", "correct": false },
+            { "text": "Documentation is updated", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which is a goal of test completion?",
+          "answers": [
+            { "text": "Executing all high-priority tests", "correct": false },
+            { "text": "Providing a summary of testing activities and results", "correct": true },
+            { "text": "Fixing all defects", "correct": false },
+            { "text": "Designing new features", "correct": false },
+            { "text": "Changing test environments", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is an incident?",
+          "answers": [
+            { "text": "A scheduling conflict in the project", "correct": false },
+            { "text": "Any event that requires investigation", "correct": true },
+            { "text": "A failure found during user training", "correct": false },
+            { "text": "A security breach", "correct": false },
+            { "text": "A change request", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Boundary Value Analysis is BEST used for:",
+          "answers": [
+            { "text": "Testing combinations of conditions", "correct": false },
+            { "text": "Testing values at the edges of partitions", "correct": true },
+            { "text": "Designing state transition tests", "correct": false },
+            { "text": "Testing user interfaces", "correct": false },
+            { "text": "Validating business workflows", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which test type checks how well the system recovers from failures?",
+          "answers": [
+            { "text": "Usability Testing", "correct": false },
+            { "text": "Recovery Testing", "correct": true },
+            { "text": "Compatibility Testing", "correct": false },
+            { "text": "Functional Testing", "correct": false },
+            { "text": "Sanity Testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is the main purpose of a test summary report?",
+          "answers": [
+            { "text": "To log all executed automated tests", "correct": false },
+            { "text": "To summarize results and assess whether exit criteria were met", "correct": true },
+            { "text": "To document all requirements", "correct": false },
+            { "text": "To plan future releases", "correct": false },
+            { "text": "To justify hiring additional testers", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which environmental factor might influence testing?",
+          "answers": [
+            { "text": "Color of the office walls", "correct": false },
+            { "text": "Network speed and infrastructure", "correct": true },
+            { "text": "Team dress code", "correct": false },
+            { "text": "Physical location of desks", "correct": false },
+            { "text": "Weekly meeting schedule", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is a benefit of independence in testing?",
+          "answers": [
+            { "text": "Testers and developers work separately and never communicate", "correct": false },
+            { "text": "Fresh perspectives improve defect finding", "correct": true },
+            { "text": "Developers test their own code faster", "correct": false },
+            { "text": "It eliminates the need for reviews", "correct": false },
+            { "text": "It removes all bias from testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which factor MOST influences the level of testing needed?",
+          "answers": [
+            { "text": "Number of developers", "correct": false },
+            { "text": "Risk and criticality of the system", "correct": true },
+            { "text": "Geographical distribution of teams", "correct": false },
+            { "text": "Tester's past experience", "correct": false },
+            { "text": "Programming language used", "correct": false }
+          ],
+          "shuffle": true }
+        ,
+        {
+          "title": "What is state transition testing useful for?",
+          "answers": [
+            { "text": "Systems where inputs influence outputs directly only", "correct": false },
+            { "text": "Systems where changes depend on previous states", "correct": true },
+            { "text": "Performance-critical systems", "correct": false },
+            { "text": "Graphical user interfaces", "correct": false },
+            { "text": "API-level validation", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "When should exploratory testing be used?",
+          "answers": [
+            { "text": "When detailed documentation is available", "correct": false },
+            { "text": "When little information is available and time is limited", "correct": true },
+            { "text": "When only performance needs to be tested", "correct": false },
+            { "text": "When all requirements are frozen", "correct": false },
+            { "text": "When only automated tests are allowed", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which testing activity requires traceability between tests and requirements?",
+          "answers": [
+            { "text": "Defect triage", "correct": false },
+            { "text": "Test coverage measurement", "correct": true },
+            { "text": "Test environment setup", "correct": false },
+            { "text": "Risk estimation", "correct": false },
+            { "text": "User training", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which is an example of risk-based testing?",
+          "answers": [
+            { "text": "Testing only functions requested by developers", "correct": false },
+            { "text": "Prioritizing tests based on likelihood and impact of failures", "correct": true },
+            { "text": "Testing all functionality equally", "correct": false },
+            { "text": "Ignoring low-risk defects", "correct": false },
+            { "text": "Performing testing only when risks occur", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is a characteristic of good test cases?",
+          "answers": [
+            { "text": "Ambiguous steps", "correct": false },
+            { "text": "Clear and repeatable procedures", "correct": true },
+            { "text": "No expected results", "correct": false },
+            { "text": "Designed only by developers", "correct": false },
+            { "text": "They rely on production data only", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which test tool would MOST likely manage testing activities and progress?",
+          "answers": [
+            { "text": "Static analysis tool", "correct": false },
+            { "text": "Test management tool", "correct": true },
+            { "text": "Performance testing tool", "correct": false },
+            { "text": "Coverage analysis tool", "correct": false },
+            { "text": "Debugging tool", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is an exit criterion?",
+          "answers": [
+            { "text": "A required precondition for executing tests", "correct": false },
+            { "text": "A condition that must be met to stop testing", "correct": true },
+            { "text": "A defect reported before release", "correct": false },
+            { "text": "A requirement that will be implemented later", "correct": false },
+            { "text": "A type of dynamic testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Equivalence partitioning divides inputs into:",
+          "answers": [
+            { "text": "Random datasets", "correct": false },
+            { "text": "Groups expected to behave similarly", "correct": true },
+            { "text": "Priority categories", "correct": false },
+            { "text": "Performance classes", "correct": false },
+            { "text": "Sequential states", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which test type checks system behavior under increasing load?",
+          "answers": [
+            { "text": "Usability Testing", "correct": false },
+            { "text": "Stress Testing", "correct": true },
+            { "text": "Static Testing", "correct": false },
+            { "text": "Functional Testing", "correct": false },
+            { "text": "Compliance Testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is the purpose of a test environment?",
+          "answers": [
+            { "text": "To design new features", "correct": false },
+            { "text": "To mimic production as closely as possible for accurate testing", "correct": true },
+            { "text": "To store test documentation", "correct": false },
+            { "text": "To calculate budget", "correct": false },
+            { "text": "To replace development environments", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which statement is TRUE about incident reports?",
+          "answers": [
+            { "text": "They document only severe defects", "correct": false },
+            { "text": "They include steps to reproduce the issue", "correct": true },
+            { "text": "They are written only by developers", "correct": false },
+            { "text": "They must include solution proposals", "correct": false },
+            { "text": "They are optional for minor issues", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which is a characteristic of maintainability testing?",
+          "answers": [
+            { "text": "It verifies the system meets business needs", "correct": false },
+            { "text": "It evaluates how easily software can be modified", "correct": true },
+            { "text": "It focuses on execution speed", "correct": false },
+            { "text": "It tests user interfaces", "correct": false },
+            { "text": "It checks financial compliance", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which term describes testing to evaluate system security?",
+          "answers": [
+            { "text": "Compatibility Testing", "correct": false },
+            { "text": "Security Testing", "correct": true },
+            { "text": "Volume Testing", "correct": false },
+            { "text": "Sanity Testing", "correct": false },
+            { "text": "Alpha Testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is the main purpose of exit criteria in testing?",
+          "answers": [
+            { "text": "To decide whether testing can be stopped", "correct": true },
+            { "text": "To document development tasks", "correct": false },
+            { "text": "To measure code complexity", "correct": false },
+            { "text": "To estimate project cost", "correct": false },
+            { "text": "To ensure testers write unit tests", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which type of review is the most formal?",
+          "answers": [
+            { "text": "Inspection", "correct": true },
+            { "text": "Walkthrough", "correct": false },
+            { "text": "Technical Review", "correct": false },
+            { "text": "Informal Review", "correct": false },
+            { "text": "Pair Programming Review", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which activity is part of test monitoring?",
+          "answers": [
+            { "text": "Tracking test progress against the plan", "correct": true },
+            { "text": "Creating new test cases", "correct": false },
+            { "text": "Designing system architecture", "correct": false },
+            { "text": "Writing requirements", "correct": false },
+            { "text": "Performing refactoring", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is a characteristic of good test cases?",
+          "answers": [
+            { "text": "They are repeatable and have clear expected results", "correct": true },
+            { "text": "They depend heavily on the environment", "correct": false },
+            { "text": "They require subjective evaluation", "correct": false },
+            { "text": "They focus only on negative scenarios", "correct": false },
+            { "text": "They avoid validation of requirements", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which role is typically responsible for writing user acceptance criteria?",
+          "answers": [
+            { "text": "Business representatives", "correct": true },
+            { "text": "Performance testers", "correct": false },
+            { "text": "Database administrators", "correct": false },
+            { "text": "Release managers", "correct": false },
+            { "text": "Security auditors", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "In risk-based testing, which risks are tested first?",
+          "answers": [
+            { "text": "High impact and high likelihood risks", "correct": true },
+            { "text": "Low probability risks", "correct": false },
+            { "text": "Only performance-related risks", "correct": false },
+            { "text": "Risks chosen randomly", "correct": false },
+            { "text": "Risks that developers prefer", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is a test design technique derived from requirements?",
+          "answers": [
+            { "text": "Use case testing", "correct": true },
+            { "text": "Statement coverage", "correct": false },
+            { "text": "Static analysis", "correct": false },
+            { "text": "Cyclomatic complexity", "correct": false },
+            { "text": "Component architecture review", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is the purpose of maintenance testing?",
+          "answers": [
+            { "text": "Testing changes after deployment", "correct": true },
+            { "text": "Testing before development", "correct": false },
+            { "text": "Testing unrelated third-party tools", "correct": false },
+            { "text": "Testing of hardware components only", "correct": false },
+            { "text": "Testing during contract negotiations", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which metric is useful for monitoring test execution?",
+          "answers": [
+            { "text": "Number of passed/failed test cases", "correct": true },
+            { "text": "Number of project stakeholders", "correct": false },
+            { "text": "Number of system users", "correct": false },
+            { "text": "Amount of code written per hour", "correct": false },
+            { "text": "Size of design documentation", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is an example of a defect cause?",
+          "answers": [
+            { "text": "A developer misunderstanding a requirement", "correct": true },
+            { "text": "A user reporting a bug", "correct": false },
+            { "text": "A test that fails", "correct": false },
+            { "text": "A deployed software version", "correct": false },
+            { "text": "A performance bottleneck", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which test technique divides input data into groups of similar behavior?",
+          "answers": [
+            { "text": "Equivalence partitioning", "correct": true },
+            { "text": "Path coverage", "correct": false },
+            { "text": "Static analysis", "correct": false },
+            { "text": "Boundary scanning", "correct": false },
+            { "text": "Heuristic walkthrough", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is a test condition?",
+          "answers": [
+            { "text": "An item or event that can be tested", "correct": true },
+            { "text": "A defect found during review", "correct": false },
+            { "text": "A list of all test data", "correct": false },
+            { "text": "A user requirement document", "correct": false },
+            { "text": "A metric for planning deadlines", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is system integration testing focused on?",
+          "answers": [
+            { "text": "Interactions between different systems", "correct": true },
+            { "text": "Hardware installation", "correct": false },
+            { "text": "End-user usability", "correct": false },
+            { "text": "Internal code logic", "correct": false },
+            { "text": "Performance of a single function", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which term describes testing performed without predefined test cases?",
+          "answers": [
+            { "text": "Exploratory testing", "correct": true },
+            { "text": "Stress testing", "correct": false },
+            { "text": "Regression testing", "correct": false },
+            { "text": "Acceptance testing", "correct": false },
+            { "text": "White-box testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is a benefit of early testing?",
+          "answers": [
+            { "text": "Defects are cheaper to fix", "correct": true },
+            { "text": "Developers write more code", "correct": false },
+            { "text": "Testing becomes unnecessary later", "correct": false },
+            { "text": "Documentation is no longer required", "correct": false },
+            { "text": "Systems never require maintenance", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which document records the details of a failure during execution?",
+          "answers": [
+            { "text": "Test incident report", "correct": true },
+            { "text": "Test strategy", "correct": false },
+            { "text": "Release notes", "correct": false },
+            { "text": "Design specification", "correct": false },
+            { "text": "Project charter", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is NOT a type of test environment?",
+          "answers": [
+            { "text": "Integration environment", "correct": false },
+            { "text": "Production environment", "correct": false },
+            { "text": "System testing environment", "correct": false },
+            { "text": "Marketing environment", "correct": true },
+            { "text": "User acceptance environment", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What does boundary value analysis focus on?",
+          "answers": [
+            { "text": "Values at the edges of partitions", "correct": true },
+            { "text": "Designing system architecture", "correct": false },
+            { "text": "Evaluating project cost", "correct": false },
+            { "text": "Testing unrelated third-party services", "correct": false },
+            { "text": "Checking code indentation", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What is the purpose of a test summary report?",
+          "answers": [
+            { "text": "To summarize testing activities and results", "correct": true },
+            { "text": "To list every user requirement", "correct": false },
+            { "text": "To define coding standards", "correct": false },
+            { "text": "To train new developers", "correct": false },
+            { "text": "To configure the test environment", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Who typically performs alpha testing?",
+          "answers": [
+            { "text": "Internal staff", "correct": true },
+            { "text": "External customers only", "correct": false },
+            { "text": "Only automated tools", "correct": false },
+            { "text": "Security auditors", "correct": false },
+            { "text": "Marketing teams", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "What is the difference between testing and debugging?",
+          "answers": [
+            { "text": "Testing finds defects; debugging fixes them", "correct": true },
+            { "text": "Both activities are identical", "correct": false },
+            { "text": "Debugging is performed by users", "correct": false },
+            { "text": "Testing modifies code directly", "correct": false },
+            { "text": "Debugging is only performed during deployment", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which test type evaluates system performance under expected load?",
+          "answers": [
+            { "text": "Load testing", "correct": true },
+            { "text": "Static analysis", "correct": false },
+            { "text": "Functional testing", "correct": false },
+            { "text": "Recovery testing", "correct": false },
+            { "text": "Integration testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which tool supports defect tracking?",
+          "answers": [
+            { "text": "Jira", "correct": true },
+            { "text": "Photoshop", "correct": false },
+            { "text": "Slack", "correct": false },
+            { "text": "Figma", "correct": false },
+            { "text": "Chrome DevTools", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which activity comes first in the test process?",
+          "answers": [
+            { "text": "Test planning", "correct": true },
+            { "text": "Test execution", "correct": false },
+            { "text": "Test closure", "correct": false },
+            { "text": "Test reporting", "correct": false },
+            { "text": "Regression testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which type of testing is focused on verifying security weaknesses?",
+          "answers": [
+            { "text": "Security testing", "correct": true },
+            { "text": "Volume testing", "correct": false },
+            { "text": "Smoke testing", "correct": false },
+            { "text": "Accessibility testing", "correct": false },
+            { "text": "Installation testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which level of testing validates that the system works as a whole?",
+          "answers": [
+            { "text": "System testing", "correct": true },
+            { "text": "Unit testing", "correct": false },
+            { "text": "Mutation testing", "correct": false },
+            { "text": "Static testing", "correct": false },
+            { "text": "Alpha testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which term refers to a repeatable sequence of actions executed to verify a feature?",
+          "answers": [
+            { "text": "Test case", "correct": true },
+            { "text": "Incident report", "correct": false },
+            { "text": "Deployment script", "correct": false },
+            { "text": "Code review checklist", "correct": false },
+            { "text": "Risk register", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which technique is based on the internal structure of the software?",
+          "answers": [
+            { "text": "White-box testing", "correct": true },
+            { "text": "Usability testing", "correct": false },
+            { "text": "User acceptance testing", "correct": false },
+            { "text": "Load testing", "correct": false },
+            { "text": "Equivalence partitioning", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "What is the goal of stress testing?",
+          "answers": [
+            { "text": "To evaluate system behavior under extreme load", "correct": true },
+            { "text": "To evaluate system behavior under normal load", "correct": false },
+            { "text": "To validate user acceptance criteria", "correct": false },
+            { "text": "To measure code coverage", "correct": false },
+            { "text": "To check installation processes", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which statement best describes smoke testing?",
+          "answers": [
+            { "text": "Basic tests to check if the build is stable", "correct": true },
+            { "text": "Full regression testing", "correct": false },
+            { "text": "Testing all UI elements", "correct": false },
+            { "text": "Security penetration testing", "correct": false },
+            { "text": "Hardware reliability testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which artifact is NOT used in static testing?",
+          "answers": [
+            { "text": "Compiled executable programs", "correct": true },
+            { "text": "Requirements documents", "correct": false },
+            { "text": "Test plans", "correct": false },
+            { "text": "Design diagrams", "correct": false },
+            { "text": "Source code", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "What does test prioritization primarily depend on?",
+          "answers": [
+            { "text": "Risk assessment", "correct": true },
+            { "text": "Tester preference", "correct": false },
+            { "text": "Developer availability", "correct": false },
+            { "text": "Length of documentation", "correct": false },
+            { "text": "System color theme", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which test type checks how well a system recovers from failure?",
+          "answers": [
+            { "text": "Recovery testing", "correct": true },
+            { "text": "Compatibility testing", "correct": false },
+            { "text": "Functional testing", "correct": false },
+            { "text": "Usability testing", "correct": false },
+            { "text": "Static analysis", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "What is the primary purpose of defect management?",
+          "answers": [
+            { "text": "To track, analyze, and resolve defects", "correct": true },
+            { "text": "To eliminate the need for reviews", "correct": false },
+            { "text": "To generate performance metrics", "correct": false },
+            { "text": "To reduce test case execution time", "correct": false },
+            { "text": "To define unit test structure", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "What is the main purpose of test data preparation?",
+          "answers": [
+            { "text": "To provide inputs for executing test cases", "correct": true },
+            { "text": "To document project status", "correct": false },
+            { "text": "To replace requirements", "correct": false },
+            { "text": "To train new testers", "correct": false },
+            { "text": "To monitor system logs only", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which testing level detects defects earlier?",
+          "answers": [
+            { "text": "Component (unit) testing", "correct": true },
+            { "text": "Acceptance testing", "correct": false },
+            { "text": "Alpha testing", "correct": false },
+            { "text": "User interface testing", "correct": false },
+            { "text": "Compatibility testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which tool type supports automated test execution?",
+          "answers": [
+            { "text": "Test automation tools", "correct": true },
+            { "text": "Spreadsheet tools", "correct": false },
+            { "text": "Project planning tools", "correct": false },
+            { "text": "Static code analyzers", "correct": false },
+            { "text": "Communication tools", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which testing technique is suitable for complex business rules?",
+          "answers": [
+            { "text": "Decision table testing", "correct": true },
+            { "text": "Boundary value analysis", "correct": false },
+            { "text": "State transition testing", "correct": false },
+            { "text": "Load testing", "correct": false },
+            { "text": "Destructive testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "What is typically validated during usability testing?",
+          "answers": [
+            { "text": "User experience and ease of use", "correct": true },
+            { "text": "Database performance", "correct": false },
+            { "text": "Code structure", "correct": false },
+            { "text": "System integration flows", "correct": false },
+            { "text": "Network packet loss", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which role typically performs component testing?",
+          "answers": [
+            { "text": "Developers", "correct": true },
+            { "text": "End users", "correct": false },
+            { "text": "Marketing team", "correct": false },
+            { "text": "Security auditors", "correct": false },
+            { "text": "Customer support", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "What is the purpose of configuration management?",
+          "answers": [
+            { "text": "To control changes to software items", "correct": true },
+            { "text": "To execute load tests", "correct": false },
+            { "text": "To improve user documentation", "correct": false },
+            { "text": "To plan test schedules", "correct": false },
+            { "text": "To analyze competitor products", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which of the following is a dynamic test tool?",
+          "answers": [
+            { "text": "Performance monitoring tool", "correct": true },
+            { "text": "Requirements modeling tool", "correct": false },
+            { "text": "Code coverage analyzer", "correct": false },
+            { "text": "Design diagram generator", "correct": false },
+            { "text": "Document management tool", "correct": false }
+          ],
+          "shuffle": true
+        },
+      
+        {
+          "title": "Which statement is TRUE about exploratory testing?",
+          "answers": [
+            { "text": "It is simultaneous learning, test design, and execution", "correct": true },
+            { "text": "It requires detailed scripts", "correct": false },
+            { "text": "It cannot find complex defects", "correct": false },
+            { "text": "It is only a performance-testing method", "correct": false },
+            { "text": "It does not allow testers to think creatively", "correct": false }
+          ],
+          "shuffle": true
+        }
+      ]
+    }
+  ]
+  
