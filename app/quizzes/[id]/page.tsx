@@ -166,6 +166,11 @@ export default function Quiz() {
           >
             Start Game
           </Link>
+          {!playerName.trim() && (
+            <div className="text-sm text-gray-500 text-center mt-2">
+              Please enter your name to start the game
+            </div>
+          )}
         </div>
 
         <div className="mt-8">

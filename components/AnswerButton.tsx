@@ -35,11 +35,11 @@ export default function AnswerButton({
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`${finalColor} text-white p-6 py-4 rounded-xl text-left font-semibold text-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg`}
+      className={`${finalColor} text-white p-4 md:p-6 py-3 md:py-4 rounded-xl text-left font-semibold text-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg`}
     >
       <div className="flex items-center gap-3">
-        <span className="text-2xl font-bold">{letter}.</span>
-        <span className="text-xl">{text}</span>
+        <span className="text-xl md:text-2xl font-bold">{letter}.</span>
+        <span className="text-lg md:text-xl">{text}</span>
         {feedback === "correct" && <span className="ml-auto text-2xl">✓</span>}
         {feedback === "wrong" && <span className="ml-auto text-2xl">✗</span>}
       </div>

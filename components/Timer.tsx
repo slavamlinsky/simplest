@@ -20,7 +20,10 @@ export default function Timer({ duration, onComplete, active }: TimerProps) {
       setTimeLeft((prev) => {
         if (prev <= 1) {
           clearInterval(interval);
-          onComplete();
+          // Schedule onComplete to run after the state update completes
+          setTimeout(() => {
+            onComplete();
+          }, 0);
           return 0;
         }
         return prev - 1;

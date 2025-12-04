@@ -152,22 +152,22 @@ export default function Leaderboard({
     <div className="bg-white rounded-2xl shadow-lg p-8">
       <h3 className="text-2xl font-bold mb-4 text-gray-800">Leaderboard</h3>
       <div className="overflow-x-auto">
-        <table className="w-full">
+        <table className="w-full text-xs md:text-sm">
           <thead>
             <tr className="border-b border-gray-200">
-              <th className="text-left py-3 px-4 font-semibold text-gray-700">
+              <th className="text-left py-2 md:py-3 px-2 md:px-4 font-semibold text-gray-700">
                 #
               </th>
-              <th className="text-left py-3 px-4 font-semibold text-gray-700">
+              <th className="text-left py-2 md:py-3 px-2 md:px-4 font-semibold text-gray-700">
                 Name
               </th>
-              <th className="text-right py-3 px-2 font-semibold text-gray-700">
+              <th className="text-right py-2 md:py-3 px-2 md:px-4 font-semibold text-gray-700">
                 Result
               </th>
-              <th className="text-right py-3 px-2 font-semibold text-gray-700">
+              <th className="text-right py-2 md:py-3 px-2 md:px-4 font-semibold text-gray-700">
                 Time
               </th>
-              <th className="text-right py-3 px-2 font-semibold text-gray-700">
+              <th className="text-right py-2 md:py-3 px-2 md:px-4 font-semibold text-gray-700">
                 Speed
               </th>
             </tr>
@@ -193,20 +193,20 @@ export default function Leaderboard({
                     : ""
                 }`}
               >
-                <td className="py-3 px-4 font-semibold text-gray-700 text-left">
+                <td className="py-2 md:py-3 px-2 md:px-4 font-semibold text-gray-700 text-left">
                   {index + 1}
                 </td>
-                <td className="py-3 px-4 text-gray-800 text-left">
+                <td className="py-2 md:py-3 px-2 md:px-4 text-gray-800 text-left">
                   {entry.name}
                 </td>
 
-                <td className="py-3 px-4 text-right text-gray-700">
+                <td className="py-2 md:py-3 px-2 md:px-4 text-right text-gray-700">
                   {entry.result}
                 </td>
-                <td className="py-3 px-4 text-right text-gray-700">
+                <td className="py-2 md:py-3 px-2 md:px-4 text-right text-gray-700">
                   {formatTime(entry.time)}
                 </td>
-                <td className="py-3 px-4 text-right text-gray-700">
+                <td className="py-2 md:py-3 px-2 md:px-4 text-right text-gray-700">
                   {formatSpeed(entry.speed)}
                 </td>
               </tr>

@@ -325,7 +325,7 @@ export default function PlayQuiz() {
 
         {!currentQuestion.image && (
           <div className="h-[320px] flex items-center justify-center">
-            <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center">
+            <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center leading-10 px-6">
               {currentQuestion.title}
             </h2>
           </div>
