@@ -54,6 +54,11 @@ export default function PlayQuiz() {
     Array<{ text: string; correct: boolean }>
   >([]);
 
+  // Add modal state
+  const [selectedQuestionIndex, setSelectedQuestionIndex] = useState<
+    number | null
+  >(null);
+
   // Initialize: Select 15 random questions and shuffle them (only once)
   useEffect(() => {
     if (!selectedQuestions && quiz && quiz.questions.length > 0) {
@@ -210,6 +215,12 @@ export default function PlayQuiz() {
 
   // Show result screen
   if (showResult) {
+    const selectedQuestion =
+      selectedQuestionIndex !== null
+        ? selectedQuestions[selectedQuestionIndex]
+        : null;
+    const correctAnswer = selectedQuestion?.answers.find((a) => a.correct);
+
     return (
       <div className="min-h-screen bg-linear-to-br from-blue-50 to-purple-50 p-6">
         <div className="max-w-3xl mx-auto text-center">
@@ -245,12 +256,13 @@ export default function PlayQuiz() {
                 </h3>
                 <div className="flex flex-wrap gap-2 justify-center">
                   {wrongQuestions.map((qIndex) => (
-                    <div
+                    <button
                       key={qIndex}
-                      className="px-4 py-2 bg-red-100 text-red-700 rounded-lg font-semibold"
+                      onClick={() => setSelectedQuestionIndex(qIndex)}
+                      className="px-4 py-2 bg-red-100 text-red-700 rounded-lg font-semibold hover:bg-red-200 transition-colors cursor-pointer"
                     >
                       Question {qIndex + 1}
-                    </div>
+                    </button>
                   ))}
                 </div>
               </div>
@@ -286,6 +298,62 @@ export default function PlayQuiz() {
             </div>
           )}
         </div>
+
+        {/* Modal */}
+        {selectedQuestionIndex !== null && selectedQuestion && (
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+            onClick={() => setSelectedQuestionIndex(null)}
+          >
+            <div
+              className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="p-6">
+                <div className="flex justify-between items-start mb-4">
+                  <h3 className="text-2xl font-bold text-gray-800">
+                    Question {selectedQuestionIndex + 1}
+                  </h3>
+                  <button
+                    onClick={() => setSelectedQuestionIndex(null)}
+                    className="text-gray-500 hover:text-gray-700 text-2xl font-bold"
+                  >
+                    ×
+                  </button>
+                </div>
+
+                {selectedQuestion.image && (
+                  <div className="mb-4 relative">
+                    <Image
+                      src={selectedQuestion.image}
+                      width={1000}
+                      height={1000}
+                      className="w-full h-[300px] object-cover rounded-xl shadow-lg"
+                      alt="question"
+                    />
+                  </div>
+                )}
+
+                <div className="mb-6">
+                  <h4 className="text-xl font-semibold text-gray-700 mb-4">
+                    {selectedQuestion.title}
+                  </h4>
+
+                  {correctAnswer && (
+                    <div className="bg-green-50 border-2 border-green-500 rounded-lg p-4">
+                      <div className="text-sm font-semibold text-green-700 mb-2">
+                        Correct Answer:
+                      </div>
+                      <div className="text-lg text-green-800 font-medium">
+                        {correctAnswer.text}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     );
   }
