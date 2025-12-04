@@ -14,15 +14,20 @@ export default function Quiz() {
   // Settings state with defaults
   const [playerName, setPlayerName] = useState("");
   const [numQuestions, setNumQuestions] = useState(15);
+  const [numQuestionsInput, setNumQuestionsInput] = useState("15"); // Add this for raw input
   const [timePerQuestion, setTimePerQuestion] = useState(20);
+  const [timePerQuestionInput, setTimePerQuestionInput] = useState("20"); // Add this for raw input
 
   // Update defaults when quiz loads
   useEffect(() => {
     if (quiz) {
-      setTimePerQuestion(quiz.timePerQuestion || 20);
+      const defaultTime = quiz.timePerQuestion || 20;
+      setTimePerQuestion(defaultTime);
+      setTimePerQuestionInput(defaultTime.toString()); // Update input string too
       // Set max questions to available questions
       const maxQuestions = Math.min(15, quiz.questions.length);
       setNumQuestions(maxQuestions);
+      setNumQuestionsInput(maxQuestions.toString());
     }
   }, [quiz]);
 
@@ -97,14 +102,33 @@ export default function Quiz() {
                   id="numQuestions"
                   type="number"
                   min={10}
-                  step={5}
                   max={quiz.questions.length}
-                  value={numQuestions}
+                  value={numQuestionsInput}
                   onChange={(e) => {
-                    const value = parseInt(e.target.value) || 1;
-                    setNumQuestions(
-                      Math.min(Math.max(10, value), quiz.questions.length)
-                    );
+                    const inputValue = e.target.value;
+                    setNumQuestionsInput(inputValue); // Allow free typing
+
+                    // Only validate and update numQuestions if it's a valid number
+                    if (inputValue !== "" && !isNaN(Number(inputValue))) {
+                      const value = parseInt(inputValue, 10);
+                      if (value >= 10 && value <= quiz.questions.length) {
+                        setNumQuestions(value);
+                      }
+                    }
+                  }}
+                  onBlur={(e) => {
+                    // Validate and clamp on blur
+                    const value = parseInt(e.target.value, 10);
+                    if (isNaN(value) || value < 10) {
+                      setNumQuestions(10);
+                      setNumQuestionsInput("10");
+                    } else if (value > quiz.questions.length) {
+                      setNumQuestions(quiz.questions.length);
+                      setNumQuestionsInput(quiz.questions.length.toString());
+                    } else {
+                      setNumQuestions(value);
+                      setNumQuestionsInput(value.toString());
+                    }
                   }}
                   className="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white text-gray-900"
                 />
@@ -125,12 +149,33 @@ export default function Quiz() {
                     id="timePerQuestion"
                     type="number"
                     min="5"
-                    step={5}
-                    max="30"
-                    value={timePerQuestion}
+                    max="300"
+                    value={timePerQuestionInput}
                     onChange={(e) => {
-                      const value = parseInt(e.target.value) || 5;
-                      setTimePerQuestion(Math.min(Math.max(5, value), 300));
+                      const inputValue = e.target.value;
+                      setTimePerQuestionInput(inputValue); // Allow free typing
+
+                      // Only validate and update timePerQuestion if it's a valid number
+                      if (inputValue !== "" && !isNaN(Number(inputValue))) {
+                        const value = parseInt(inputValue, 10);
+                        if (value >= 5 && value <= 300) {
+                          setTimePerQuestion(value);
+                        }
+                      }
+                    }}
+                    onBlur={(e) => {
+                      // Validate and clamp on blur
+                      const value = parseInt(e.target.value, 10);
+                      if (isNaN(value) || value < 5) {
+                        setTimePerQuestion(5);
+                        setTimePerQuestionInput("5");
+                      } else if (value > 300) {
+                        setTimePerQuestion(300);
+                        setTimePerQuestionInput("300");
+                      } else {
+                        setTimePerQuestion(value);
+                        setTimePerQuestionInput(value.toString());
+                      }
                     }}
                     className="w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white text-gray-900"
                   />
