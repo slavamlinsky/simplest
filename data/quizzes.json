@@ -31,7 +31,257 @@
         "shuffle": true
       }
     ]
-  },   
+  }, 
+  {
+    "id": "transport_en",
+    "name": "Transport Quiz",
+    "category": "English Vocabulary",
+    "useTimer": true,
+    "timePerQuestion": 20,
+    "questions": [
+      {
+        "title": "Which vehicle carries sick or injured people?",
+        "image": "/images/transport/ambulance.jpg",
+        "answers": [
+          { "text": "Ambulance", "correct": true },
+          { "text": "Bus", "correct": false },
+          { "text": "Van", "correct": false },
+          { "text": "Truck", "correct": false },
+          { "text": "Fire truck", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which bus has two floors?",
+        "image": "/images/transport/double-decker.jpg",
+        "answers": [
+          { "text": "Double-decker bus", "correct": true },
+          { "text": "Tram", "correct": false },
+          { "text": "Subway", "correct": false },
+          { "text": "Train", "correct": false },
+          { "text": "Coach", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which vehicle is used to transport goods on roads?",
+        "image": "/images/transport/truck.jpg",
+        "answers": [
+          { "text": "Truck", "correct": true },
+          { "text": "Bus", "correct": false },
+          { "text": "Van", "correct": false },
+          { "text": "Car", "correct": false },
+          { "text": "Scooter", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which vehicle puts out fires?",
+        "image": "/images/transport/fire-truck.jpg",
+        "answers": [
+          { "text": "Fire truck", "correct": true },
+          { "text": "Ambulance", "correct": false },
+          { "text": "Police car", "correct": false },
+          { "text": "Truck", "correct": false },
+          { "text": "Van", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which large vehicle travels on the sea?",
+        "image": "/images/transport/ship.jpg",
+        "answers": [
+          { "text": "Ship", "correct": true },
+          { "text": "Boat", "correct": false },
+          { "text": "Yacht", "correct": false },
+          { "text": "Submarine", "correct": false },
+          { "text": "Ferry", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which small vehicle travels on water?",
+        "image": "/images/transport/boat.jpg",
+        "answers": [
+          { "text": "Boat", "correct": true },
+          { "text": "Ship", "correct": false },
+          { "text": "Submarine", "correct": false },
+          { "text": "Yacht", "correct": false },
+          { "text": "Helicopter", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which vehicle flies using rotating blades?",
+        "image": "/images/transport/helicopter.jpg",
+        "answers": [
+          { "text": "Helicopter", "correct": true },
+          { "text": "Airplane", "correct": false },
+          { "text": "Spaceship", "correct": false },
+          { "text": "Drone", "correct": false },
+          { "text": "Glider", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which car is designed with a classic old style?",
+        "image": "/images/transport/retro-car.jpg",
+        "answers": [
+          { "text": "Retro car", "correct": true },
+          { "text": "Sports car", "correct": false },
+          { "text": "Van", "correct": false },
+          { "text": "Truck", "correct": false },
+          { "text": "Taxi", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which vehicle is used to carry people or goods?",
+        "image": "/images/transport/van.jpg",
+        "answers": [
+          { "text": "Van", "correct": true },
+          { "text": "Bus", "correct": false },
+          { "text": "Truck", "correct": false },
+          { "text": "Car", "correct": false },
+          { "text": "Scooter", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which vehicle runs on rails and travels long distances?",
+        "image": "/images/transport/train.jpg",
+        "answers": [
+          { "text": "Train", "correct": true },
+          { "text": "Subway", "correct": false },
+          { "text": "Tram", "correct": false },
+          { "text": "Bus", "correct": false },
+          { "text": "Car", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which vehicle is powered by pedaling?",
+        "image": "/images/transport/bicycle.jpg",
+        "answers": [
+          { "text": "Bicycle", "correct": true },
+          { "text": "Motorcycle", "correct": false },
+          { "text": "Scooter", "correct": false },
+          { "text": "Moped", "correct": false },
+          { "text": "Tricycle", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which two-wheeled vehicle has an engine?",
+        "image": "/images/transport/motorcycle.jpg",
+        "answers": [
+          { "text": "Motorcycle", "correct": true },
+          { "text": "Bicycle", "correct": false },
+          { "text": "Scooter", "correct": false },
+          { "text": "Tricycle", "correct": false },
+          { "text": "Skateboard", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which vehicle carries many passengers on roads?",
+        "image": "/images/transport/bus.jpg",
+        "answers": [
+          { "text": "Bus", "correct": true },
+          { "text": "Van", "correct": false },
+          { "text": "Truck", "correct": false },
+          { "text": "Car", "correct": false },
+          { "text": "Tram", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which vehicle travels underwater?",
+        "image": "/images/transport/submarine.jpg",
+        "answers": [
+          { "text": "Submarine", "correct": true },
+          { "text": "Ship", "correct": false },
+          { "text": "Boat", "correct": false },
+          { "text": "Yacht", "correct": false },
+          { "text": "Helicopter", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which vehicle travels in space?",
+        "image": "/images/transport/spaceship.jpg",
+        "answers": [
+          { "text": "Spaceship", "correct": true },
+          { "text": "Airplane", "correct": false },
+          { "text": "Helicopter", "correct": false },
+          { "text": "Satellite", "correct": false },
+          { "text": "Drone", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which word is British English for a truck?",
+        "image": "/images/transport/lorry.jpg",
+        "answers": [
+          { "text": "Lorry", "correct": true },
+          { "text": "Van", "correct": false },
+          { "text": "Bus", "correct": false },
+          { "text": "Car", "correct": false },
+          { "text": "Coach", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which luxury boat is used for leisure?",
+        "image": "/images/transport/yacht.jpg",
+        "answers": [
+          { "text": "Yacht", "correct": true },
+          { "text": "Ship", "correct": false },
+          { "text": "Boat", "correct": false },
+          { "text": "Submarine", "correct": false },
+          { "text": "Ferry", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which underground transport runs in cities?",
+        "image": "/images/transport/subway.jpg",
+        "answers": [
+          { "text": "Subway", "correct": true },
+          { "text": "Train", "correct": false },
+          { "text": "Tram", "correct": false },
+          { "text": "Bus", "correct": false },
+          { "text": "Scooter", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which small vehicle is often electric and easy to ride?",
+        "image": "/images/transport/scooter.jpg",
+        "answers": [
+          { "text": "Scooter", "correct": true },
+          { "text": "Bicycle", "correct": false },
+          { "text": "Motorcycle", "correct": false },
+          { "text": "Skateboard", "correct": false },
+          { "text": "Car", "correct": false }
+        ],
+        "shuffle": true
+      },
+      {
+        "title": "Which vehicle runs on rails in city streets?",
+        "image": "/images/transport/tram.jpg",
+        "answers": [
+          { "text": "Tram", "correct": true },
+          { "text": "Bus", "correct": false },
+          { "text": "Train", "correct": false },
+          { "text": "Subway", "correct": false },
+          { "text": "Car", "correct": false }
+        ],
+        "shuffle": true
+      }
+    ]
+  }
+  ,   
   {
     "id": "body_parts",
     "name": "Body Parts",
