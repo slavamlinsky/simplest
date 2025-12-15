@@ -380,7 +380,7 @@ export default function PlayQuiz() {
               src={currentQuestion.image}
               width={1000}
               height={1000}
-              className="w-full h-[450px] object-cover mx-auto rounded-xl shadow-lg"
+              className="w-full h-[360px] object-cover mx-auto rounded-xl shadow-lg"
               alt="question"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-slate-700 bg-opacity-60 text-white p-4 rounded-b-xl">
