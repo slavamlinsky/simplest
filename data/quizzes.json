@@ -1996,7 +1996,6 @@
           ],
           "shuffle": true
         },
-      
         {
           "title": "Which of the following is a dynamic test tool?",
           "answers": [
@@ -2018,6 +2017,152 @@
             { "text": "It does not allow testers to think creatively", "correct": false }
           ],
           "shuffle": true
+        },
+        {
+          "title": "What is testware?",
+          "answers": [
+            { "text": "Output work products created from test activities", "correct": true },
+            { "text": "Only automated test scripts", "correct": false },
+            { "text": "Defects found during testing", "correct": false },
+            { "text": "Software configuration items only", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What ensures consistency and integrity of testware work products?",
+          "answers": [
+            { "text": "Proper configuration management", "correct": true },
+            { "text": "Defect management", "correct": false },
+            { "text": "Test execution", "correct": false },
+            { "text": "Risk-based testing", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is a test planning work product?",
+          "answers": [
+            { "text": "Test plan", "correct": true },
+            { "text": "Test log", "correct": false },
+            { "text": "Test procedure", "correct": false },
+            { "text": "Test completion report", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "What information is included in a risk register?",
+          "answers": [
+            { "text": "Risks, their likelihood, impact, and mitigation information", "correct": true },
+            { "text": "Executed test cases and results", "correct": false },
+            { "text": "Only defect severity levels", "correct": false },
+            { "text": "Test environment configurations", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which work product is part of test monitoring and test control?",
+          "answers": [
+            { "text": "Test progress reports", "correct": true },
+            { "text": "Test cases", "correct": false },
+            { "text": "Test scripts", "correct": false },
+            { "text": "Test data", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is a test analysis work product?",
+          "answers": [
+            { "text": "Prioritized test conditions", "correct": true },
+            { "text": "Test execution schedule", "correct": false },
+            { "text": "Test logs", "correct": false },
+            { "text": "Test environment items", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which item belongs to test design work products?",
+          "answers": [
+            { "text": "Test cases", "correct": true },
+            { "text": "Defect reports from execution", "correct": false },
+            { "text": "Test completion report", "correct": false },
+            { "text": "Test logs", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is a test implementation work product?",
+          "answers": [
+            { "text": "Manual and automated test scripts", "correct": true },
+            { "text": "Test progress report", "correct": false },
+            { "text": "Risk register", "correct": false },
+            { "text": "Test conditions", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which item is an example of a test environment item?",
+          "answers": [
+            { "text": "Stubs and drivers", "correct": true },
+            { "text": "Test plan", "correct": false },
+            { "text": "Test log", "correct": false },
+            { "text": "Test completion report", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which work products are created during test execution?",
+          "answers": [
+            { "text": "Test logs and defect reports", "correct": true },
+            { "text": "Test cases and test charters", "correct": false },
+            { "text": "Risk register and test plan", "correct": false },
+            { "text": "Lessons learned and action items", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is a test completion work product?",
+          "answers": [
+            { "text": "Test completion report", "correct": true },
+            { "text": "Test procedure", "correct": false },
+            { "text": "Test data requirements", "correct": false },
+            { "text": "Test progress report", "correct": false }
+          ],
+          "shuffle": true
+        },
+        {
+          "title": "Which of the following is an example of a test-first approach to development?",
+          "answers": [
+            { "text": "Acceptance Test-Driven Developmen", "correct": true },
+            { "text": "Component Test-Driven Development", "correct": false },
+            { "text": "Integration Test-Driven Development", "correct": false },
+            { "text": "System Test-Driven Development", "correct": false }
+          ]
+        },
+        {
+          "title": "Which of the following is LEAST likely to occur as a result of a retrospective?",
+          "answers": [
+            { "text": "End users understanding of the development and test processes is improved", "correct": true },
+            { "text": "Automated test scripts are enhanced through feedback from developers", "correct": false },
+            { "text": "Test efficiency improves by speeding up the configuration of test environments through automation", "correct": false },
+            { "text": "The quality of future test objects improves by identifying improvements in development practices", "correct": false }
+          ]
+        },
+        {
+          "title": "Which of the following BEST describe the collaborative approach to user story writing?",
+          "answers": [
+            { "text": "User stories are created by business representatives, developers, and testers together", "correct": true },
+            { "text": "User stories are created by testers and developers and then accepted by business representatives", "correct": false },
+            { "text": "User stories are created by business representatives and verified by developers and testers", "correct": false},
+            { "text": "User stories are created in a way that they are independent, negotiable, valuable, estimable, small, and testable", "correct": false }
+          ]
+        },
+        {
+          "title": "Which collaborative user story writing practice enables the team to achieve a collective understanding of what needs to be delivered?",
+          "answers": [
+            { "text": "Conversation, so that team members can understand how the software will be used", "correct": true },
+            { "text": "Iteration planning, so that user stories with the highest business value for a customer can be prioritized for implementation", "correct": false },
+            { "text": "Reviews, so that a team can detect inconsistencies and contradictions in a user story", "correct": false},
+            { "text": "Planning poker, so that a team can achieve consensus on the effort needed to implement a user story", "correct": false }
+          ]
         }
       ]
   }
